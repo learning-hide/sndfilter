@@ -16,3 +16,7 @@ jobs:
     - name: build
       run: ./build
       
+    - uses: actions/upload-artifact@v3
+      with:
+        name: file
+        path: ""
